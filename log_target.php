@@ -1,8 +1,8 @@
 <?php
 
 //This file will check for user input for username and password. If they are correct then it will show the log file.
-
-if($_GET["username"] == "faiqbinzahid" && $_GET["password"] == "faiq123"){
+//username and password can be added of your own choice
+if($_GET["username"] == "**********" && $_GET["password"] == "**********"){
     
     //it will open the file that is the latest
     $filename = './log_'.date("Y").'.txt';
